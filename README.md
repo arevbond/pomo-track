@@ -27,6 +27,14 @@ go install https://github.com/arevbond/PomoTrack@latest
 ```
 Установит бинарный файл в `$GOPATH/bin`.
 
+### Requirement packages
+#### Ubuntu/Debian
+```bash
+$ sudo apt-get update
+$ sudo apt-get install libasound2-dev
+$ sudo apt-get install libudev-dev
+```
+
 ## Application options
 ```
       --focus-duration       setup pomodoro focus intreval (default 25m)
