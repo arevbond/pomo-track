@@ -17,15 +17,23 @@ before:
 
 builds:
   - id: pomo-track
-    env:
-      - CGO_ENABLED=1
     goos:
       - linux
       - windows
+    goarch:
+      - amd64
+      - arm64
+    env:
+      - CGO_ENABLED=1   # Only for native builds
+  - id: pomo-track_no_cgo
+    goos:
       - darwin
     goarch:
       - amd64
       - arm64
+    env:
+      - CGO_ENABLED=0
+
 
 archives:
   - formats: [tar.gz]
