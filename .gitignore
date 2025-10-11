@@ -6,3 +6,5 @@ config/config.yaml
 pomotrack
 IDEAS.md
 .history/
+# Added by goreleaser init:
+dist/
