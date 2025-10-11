@@ -15,9 +15,11 @@ require (
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/ebitengine/purego v0.4.1 // indirect
 	github.com/gdamore/encoding v1.0.0 // indirect
 	github.com/hajimehoshi/go-mp3 v0.3.0 // indirect
 	github.com/hajimehoshi/oto v1.0.2 // indirect
+	github.com/hajimehoshi/oto/v2 v2.4.3 // indirect
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
