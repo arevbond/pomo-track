@@ -21,12 +21,6 @@ $ cd PomoTrack
 $ make build
 ```
 
-### Go install
-```bash
-go install https://github.com/arevbond/PomoTrack@latest
-```
-Установит бинарный файл в `$GOPATH/bin`.
-
 ### Requirement packages
 #### Ubuntu/Debian
 ```bash
